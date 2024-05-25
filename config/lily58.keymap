@@ -13,7 +13,7 @@
         bcsp_q: bcsp_q {
             compatible = "zmk,behavior-mod-morph";
             label = "BCSP_Q";
-            bindings = <&kp BACKSPACE>, <&kp QUESTION>;
+            bindings = <&kp BACKSPACE>, <&kp F_QUES>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
